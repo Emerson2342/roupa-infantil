@@ -1,0 +1,144 @@
+@media screen and (max-width: 1470px) {
+    .p5 {
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 1355px) {
+    .p1 {
+        margin-left: -40%;
+    }
+
+    .p4 {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .p4 {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1067px) {
+
+    .p1,
+    .p2,
+    .p3,
+    .p4,
+    .p5 {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    .logo-text p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .logo-img img {
+        width: 250px;
+        height: auto;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+
+    .destaques .price-area .price,
+    .destaques .price-area .price {
+        width: 100%;
+    }
+
+    .destaques .price-area .text,
+    .destaques .price-area .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    footer .informacoes {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .informacoes .atendimento,
+    .informacoes .troca,
+    .informacoes .parcelamento,
+    .informacoes .frete {
+        width: calc(50% - 10px);
+    }
+
+    .informacoes p {
+        font-size: 15px;
+    }
+
+    .logo.img {
+        width: 30%;
+    }
+
+    .logo-text {
+        width: 55%;
+    }
+
+    .logo-img img {
+        width: 250px;
+        height: auto;
+    }
+
+    .logo-text p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 633px) {
+    .produto-wrapper {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .logo {
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    .logo-text,
+    .logo-img {
+        width: 99%;
+        justify-content: center;
+    }
+
+    .cabecalho {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .produto-wrapper {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 465px) {
+
+    .informacoes .atendimento,
+    .informacoes .troca,
+    .informacoes .parcelamento,
+    .informacoes .frete {
+        width: 100%;
+        text-align: center;
+    }
+}
